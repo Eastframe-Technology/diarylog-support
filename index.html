@@ -3,44 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DiaryLog support</title>
-<meta name="description" content="Support and privacy policy for DiaryLog, the DBT diary card app.">
-<style>
-  :root { color-scheme: light dark; --bg:#f7f6fb; --fg:#15131f; --muted:#5f5b70; --accent:#5b48d6; --card:#ffffff; --alert:#fde8e8; --alertfg:#7a1b1f; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0e0d16; --fg:#efedf7; --muted:#a7a3b8; --accent:#a594ff; --card:#18162a; --alert:#3a1418; --alertfg:#ffc9cb; } }
-  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width:680px; margin:0 auto; padding:48px 16px 64px; }
-  h1 { font-size:34px; margin:0 0 4px; } h2 { margin-top:40px; font-size:22px; }
-  p.lead { color:var(--muted); margin-top:0; }
-  .card { background:var(--card); border-radius:14px; padding:16px 20px; margin:16px 0; }
-  .alert { background:var(--alert); color:var(--alertfg); border-radius:14px; padding:16px 20px; margin:16px 0; font-weight:600; }
-  a { color:var(--accent); }
-  .logo { width:72px; height:72px; border-radius:18px; display:block; margin-bottom:16px; }
-  footer { color:var(--muted); font-size:14px; margin-top:48px; }
-</style>
+<title>DiaryLog: DBT diary card app for Android, private and on your phone</title>
+<meta name="description" content="DiaryLog is a DBT diary card for Android: urges, emotions, skills use, medication and notes, with a week view to bring to your therapist. Your entries stay on your phone. No ads, no account.">
+<link rel="canonical" href="https://eastframe-technology.github.io/diarylog-support/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DiaryLog: a DBT diary card on your phone">
+<meta property="og:description" content="Urges, emotions and skills in about a minute a day, with a week view to bring to your therapist. Your entries stay on your phone.">
+<meta property="og:image" content="https://eastframe-technology.github.io/diarylog-support/img/og.jpg">
+<meta property="og:url" content="https://eastframe-technology.github.io/diarylog-support/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MobileApplication","name":"DiaryLog: DBT Diary Card","operatingSystem":"Android","applicationCategory":"HealthApplication","description":"A DBT diary card to support therapy: urges, emotions, skills use, medication and notes, with a week view. No ads, no subscription, no account. Not a treatment and not a crisis service.","image":"https://eastframe-technology.github.io/diarylog-support/img/og.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Eastframe Technology LLC"}}
+</script>
 </head>
 <body>
 <main>
-  <img class="logo" src="icon.png" alt="">
-  <h1>DiaryLog</h1>
-  <p class="lead">A DBT diary card on your phone: urges, emotions and skills in a minute a day, a week view, and a PDF for your therapist. Free, with one optional unlock. No ads, no subscription, no account.</p>
+  <nav><a class="home" href="./"><img src="icon.png" alt="">DiaryLog</a><a href="tools/printable-dbt-diary-card.html">Printable card</a><a href="guides/what-is-a-dbt-diary-card.html">What is a diary card?</a><a href="guides/diary-card-with-your-therapist.html">Using it with your therapist</a><a href="#support">Support</a></nav>
 
-  <div class="alert">If you might act on thoughts of suicide or self-harm, or you are in danger, call your local emergency number now (for example 911 or 112). In the US and Canada you can call or text 988. To find a helpline in your country, visit <a href="https://findahelpline.com">findahelpline.com</a>.</div>
+  <h1>A DBT diary card on your phone</h1>
+  <p class="lead">DiaryLog is a diary card for people in Dialectical Behavior Therapy. Note your urges, emotions and the skills you used in about a minute a day, look back over the week, and bring it to your next session. It supports therapy and doesn't replace it.</p>
+
+  <aside class="crisis"><strong>This site and the app are not a crisis service.</strong> If you are in danger, or might act on thoughts of suicide or self-harm, please call your local emergency number (such as 911 or 112). In the US and Canada you can call or text <a href="tel:988">988</a>. In other countries, <a href="https://findahelpline.com">findahelpline.com</a> lists helplines.</aside>
+
+  <!-- PLAY_CTA --><p class="soon">Coming soon to Google Play</p><!-- /PLAY_CTA -->
+  <p class="note">Android. Free: the daily card, week view, skills library, Help now, reminder, app lock and backup. DiaryLog Pro, one in-app purchase paid once: the card as a PDF, CSV export, trends, and your own items.</p>
+
+  <div class="shots" aria-label="Screenshots">
+    <img src="img/shot-1.webp" width="200" height="400" alt="Today's card with urges and emotions rated from 0 to 5">
+    <img src="img/shot-2.webp" width="200" height="400" alt="Week view as a grid, one column per day" loading="lazy">
+    <img src="img/shot-3.webp" width="200" height="400" alt="Help now sheet with emergency guidance and a helpline finder" loading="lazy">
+    <img src="img/shot-4.webp" width="200" height="400" alt="Settings for the card, reminder and app lock" loading="lazy">
+  </div>
+
+  <h2>What it does</h2>
+  <div class="grid">
+    <div class="card"><h3>Today's card</h3>Urges from 0 to 5 with "acted on it", emotions from 0 to 5, the skills you used, the 0 to 7 skills-use scale, a note, and medication if you choose to track it. It saves as you go. You can fill in a past day too.</div>
+    <div class="card"><h3>The week</h3>The card as a grid, one column per day, shaded by intensity, with skills counted. Tap a day to change it.</div>
+    <div class="card"><h3>Skills library</h3>Short reminders, in our own words, of 28 skills across four areas. They are for skills you learn and practise with your therapist or skills group.</div>
+    <div class="card"><h3>Help now</h3>On the Today screen and in Settings: emergency guidance, a crisis line where we know your region's number, and a helpline finder for other countries. Always free.</div>
+    <div class="card"><h3>Reminder, lock, backup</h3>A daily reminder at a time you choose. An app lock using your fingerprint or device passcode. A backup file of your whole diary, which you can restore on a new phone.</div>
+    <div class="card"><h3>DiaryLog Pro</h3>One optional purchase, no subscription. Share the card as a PDF of 1, 2 or 4 weeks, export CSV, see trends over 30 or 90 days, and add your own items.</div>
+  </div>
+
+  <h2>Where it helps</h2>
+  <ul>
+    <li><strong>If you are in DBT</strong> and would rather keep your card on your phone than on paper. Check with your therapist that a phone suits them. <a href="guides/diary-card-with-your-therapist.html">How people use a card with their therapist</a>.</li>
+    <li><strong>If privacy matters to you.</strong> Your diary stays on your phone. The app has no account, no ads and no analytics, and it doesn't connect to the internet.</li>
+    <li><strong>If you would like to know more first.</strong> Read <a href="guides/what-is-a-dbt-diary-card.html">what a diary card is</a>. A card on its own isn't therapy. A doctor or mental health professional can talk through whether DBT might suit you.</li>
+  </ul>
+
+  <h2>Prefer paper?</h2>
+  <div class="card"><a href="tools/printable-dbt-diary-card.html">Print a blank diary card</a>. It is free, fits on one landscape page of A4 or Letter, and tracks the same items as the app. You don't need the app or an account, and nothing is stored or sent.</div>
 
   <h2 id="support">Support</h2>
   <div class="card">
-    <p>Questions, bugs, or feature requests: email <a href="mailto:contact@eastframe-technology.com">contact@eastframe-technology.com</a>. A human reads every message, usually the same day. This address is for the app only; we can't offer clinical advice.</p>
-    <p>A <a href="diarylog-ios-demo.mp4">short captioned walkthrough</a> shows every feature.</p>
+    <p>Questions, bugs, or feature requests: email <a href="mailto:contact@eastframe-technology.com">contact@eastframe-technology.com</a>. A human reads every message, usually the same day. This address is for the app only. We can't offer clinical advice, and it isn't monitored for emergencies.</p>
   </div>
 
   <h2>Frequently asked</h2>
   <div class="card">
-    <p><strong>Is DiaryLog a treatment?</strong> No. It is a diary card, the tracking sheet used in Dialectical Behavior Therapy, to support the work you do with your therapist or skills group. It doesn't replace professional care, and it isn't a crisis service.</p>
-    <p><strong>Who can see my diary?</strong> Only you. Your entries stay on your phone. DiaryLog has no account and never connects to the internet. You can lock it with Face ID, Touch ID, your fingerprint or your passcode (Settings, App lock).</p>
+    <p><strong>Is DiaryLog a treatment?</strong> No. It is a diary card, the tracking sheet used in Dialectical Behavior Therapy, to support the work you do with your therapist or skills group. It doesn't replace professional care, it isn't a crisis service, and it isn't a medical device. It doesn't diagnose or treat any condition.</p>
+    <p><strong>Who can see my diary?</strong> Only you, unless you choose to share it. Your entries stay on your phone. DiaryLog has no account and never connects to the internet. You can lock it with your fingerprint or device passcode (Settings, App lock).</p>
     <p><strong>Can I fill in a day I missed?</strong> Yes. Use the arrows or tap the date on the Today screen, or tap a day on the Week screen.</p>
-    <p><strong>What does the free version include?</strong> Everything you need every day: the full card (urges, emotions, skills, the skills-use scale, medication, notes), the week view, the skills library, Help now, the daily reminder, app lock, and backup. DiaryLog Pro, a single purchase, adds sharing the card as a PDF (1, 2 or 4 weeks) and CSV, trends over 30 or 90 days, and your own targets, emotions and skills.</p>
+    <p><strong>What does the free version include?</strong> The full daily card (urges, emotions, skills, the skills-use scale, medication, notes), the week view, the skills library, Help now, the daily reminder, app lock and backup. You can also hide items that don't apply to you. DiaryLog Pro, a single purchase, adds sharing the card as a PDF (1, 2 or 4 weeks) and CSV, trends over 30 or 90 days, and your own targets, emotions and skills.</p>
     <p><strong>Is there a subscription?</strong> No. DiaryLog Pro is a single purchase. Restore it on a new phone from Settings.</p>
-    <p><strong>How do I move my diary to a new phone?</strong> Settings, Back up saves a file with your whole diary; send it to yourself, then use Settings, Restore on the new phone.</p>
+    <p><strong>How do I move my diary to a new phone?</strong> Settings, Back up saves a file with your whole diary. Send it to yourself, then use Settings, Restore on the new phone. The file holds everything you wrote, so take care where you send it.</p>
     <p><strong>Where do the skill descriptions come from?</strong> They are short reminders in our own words. Learn and practise the skills with your therapist or skills group.</p>
   </div>
 
@@ -57,7 +86,7 @@
     <p><strong>Changes.</strong> A new version of this policy will be published at this address with a new effective date.</p>
   </div>
 
-  <footer>© 2026 Eastframe Technology LLC. DiaryLog is not affiliated with any DBT organisation.</footer>
+  <footer>© 2026 Eastframe Technology LLC · <a href="privacy.html">Privacy policy</a><br>DiaryLog is not affiliated with any DBT organisation. It is not a medical device and does not diagnose or treat any condition.</footer>
 </main>
 </body>
 </html>
